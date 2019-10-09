@@ -8,14 +8,14 @@
 
 h2,
 p,
-strong,{ font-family: 'Garamond';}
+strong{ font-family: 'Impact', san-serif;}
 
 body,
 h1,
 h2,
 p,
 li,
-strong,{ margin-left: 0.2%;}
+strong{ margin-left: 0.2%;}
 
 
 .nav {
@@ -71,11 +71,11 @@ strong{ color : white;
 li{color : blue; }
 p{ color :#CD7F32;}
 h2{color: black;}
-h1{font-family: 'Bookman';
+h1{font-family: 'Bookman', san-serif;;
 color : #FFD700;}
 
 /*Some especial style for some of my websites*/
 
 .pol{color: DarkOrange;}
- .firsth{ font-family: 'Comic Sans MS';}
+ .firsth{ font-family: 'Comic Sans MS', san-serif;}
 
