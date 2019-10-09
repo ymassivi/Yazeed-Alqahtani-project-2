@@ -1,41 +1,40 @@
-
-
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
-/*same style elements*/
-
-
+/* 5 same style elements*/
 
 h2,
 p,
-strong{ font-family: 'Impact', san-serif;}
+strong {
+  font-family: 'Impact', san-serif;
+}
 
 body,
 h1,
 h2,
 p,
 li,
-strong{ margin-left: 0.2%;}
-
+strong {
+  margin-left: 0.2%;
+}
 
 .nav {
-    border:1px solid #ccc;
-    border-width:1px 0;
-    list-style:none;
-    margin:0;
-    padding:0;
-    text-align:center;
+  border: 1px solid #ccc;
+  border-width: 1px 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
   overflow: hidden;
   background-color: #333;
 }
 
 .nav li {
-  display:inline;
+  display: inline;
 }
 
 .nav a {
-  display:inline-block;
-    padding:10px;
+  display: inline-block;
+  padding: 10px;
   color: white;
   text-decoration: none;
 }
@@ -45,39 +44,61 @@ strong{ margin-left: 0.2%;}
 }
 
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
+
 video {
-width: 700px;
-height: 450px;
- border: 1px solid red;
- }
- 
- em{
- color:#333; 
- margin-left: 0.2%;
- }
- 
- 
- 
- 
-/*different style elements*/
-body{
-background-color : DimGrey;
+  width: 700px;
+  height: 450px;
+  border: 1px solid red;
 }
-strong{ color : white;
+
+em {
+  color: #333;
+  margin-left: 0.2%;
 }
-li{color : blue; }
-p{ color :#CD7F32;}
-h2{color: black;}
-h1{font-family: 'Bookman', san-serif;;
-color : #FFD700;}
+
+
+/* 5 different style elements*/
+
+body {
+  background-color: DimGrey;
+}
+
+strong {
+  color: white;
+}
+
+li {
+  color: blue;
+}
+
+p {
+  font-family: 'Times New Roman', san-serif;
+  color: #CD7F32;
+}
+
+h2 {
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  border: 1px solid white;
+  font-family: 'Bookman', san-serif;
+  color: #FFD700;
+}
+
 
 /*Some especial style for some of my websites*/
 
-.pol{color: DarkOrange;}
- .firsth{ font-family: 'Comic Sans MS', san-serif;}
+.pol {
+  color: DarkOrange;
+}
 
+.firsth {
+  font-family: 'Comic Sans MS', san-serif;
+}
