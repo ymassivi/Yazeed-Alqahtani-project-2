@@ -10,15 +10,31 @@ h2,
 p,
 strong,{ font-family: 'Garamond'}
 
-nav{ width : 50%;
-padding : 0px:
-margin :100 auto;
-border-top:0px;
-border: 1px solid red;
-border-width: 1px solid red;
-border-radius:7px 7px 0px 0px;
-display : inline;
-text-align :center;
+
+.nav {
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav li {
+  display:inline;
+}
+
+.nav a {
+  display:inline-block;
+    padding:10px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background-color: #111;
 }
 
 img {
@@ -31,16 +47,17 @@ height: 450px;
  border: 1px solid red;
  }
  
-
-
+ .pol{color: DarkOrange;}
+ 
+ 
 /*different style elements*/
 body{
 background-color : DimGrey;
 }
 strong{ color : white;
 }
-li{color : red; }
-p{ color : red;}
+li{color : blue; }
+p{ color : blue;}
 h2{color: black;}
 h1{font-family: 'Bookman';
 color : black;}
