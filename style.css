@@ -10,6 +10,10 @@ h2,
 p,
 strong,{ font-family: 'Garamond'}
 
+h2,
+p,
+strong,{ margin: 0.2%}
+
 
 .nav {
     border:1px solid #ccc;
@@ -38,8 +42,8 @@ strong,{ font-family: 'Garamond'}
 }
 
 img {
-width= 700px;
-height= 450px;
+width= 640%;
+height= 426px;
 }
 video {
 width: 700px;
@@ -48,6 +52,13 @@ height: 450px;
  }
  
  .pol{color: DarkOrange;}
+ .firsth{ font-family: 'Comic Sans MS';}
+ 
+ em{
+ color:#333; 
+ margin-left: 2%;
+ }
+ 
  
  
 /*different style elements*/
@@ -57,7 +68,7 @@ background-color : DimGrey;
 strong{ color : white;
 }
 li{color : blue; }
-p{ color : blue;}
+p{ color : #007FFF;}
 h2{color: black;}
 h1{font-family: 'Bookman';
 color : black;}
