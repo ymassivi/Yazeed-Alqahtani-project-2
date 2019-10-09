@@ -45,8 +45,10 @@ strong{ margin-left: 0.2%;}
 }
 
 img {
-    height: 150px;
-    width: 75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
 }
 video {
 width: 700px;
